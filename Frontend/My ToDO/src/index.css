@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@500&display=swap');
+
+body {
+  background: #352f5b;
+  font-family: "Reddit Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  border: 0px
+}
+
+.line-through{
+  text-decoration: line-through;
+}
+
+.container {
+  max-width: 400px;
+}
+
+form{
+display: flex;
+justify-content: space-between;
+}
+
+form button{
+background: rgba(0, 0, 0, 0.2);
+border: none;
+border-radius: 5px;
+color: white;
+margin-left: 3px;
+padding: 0px 7px 0px 7px;
+}
+
+
+
+input[type="text"],
+input[type="text"]:focus {
+  color: #fff;
+  border: none;
+  background: rgba(0, 0, 0, 0.2);
+  max-width: 360px;
+}
+
+input[type="checkbox"]{
+  margin-right: 5px;
+}
+
+
+.form-control::placeholder {
+  color: #fff;
+  opacity: 0.3;
+}
+
+
+.todos li {
+  background: #423a6f;
+  color: #fff;
+  border: none;
+  margin: 1px 0
+}
+
+.delete {
+  cursor: pointer;
+}
+
+.filtered {
+  display: none !important;
+}
+
+.btn:hover {
+  background: #423a6f;
+  color: #fff;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-radius: 13px 13px;
+  transition: 0.8s;
+}
+
+.filtering-label{
+  color: #fff;
+  opacity: 0.7
+}
+
+.form-select{
+  border: none;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.form-select option{
+  background: rgba(0, 0, 0, 0.2);
+  color: black;
+}
